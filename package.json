@@ -106,7 +106,6 @@
     "deploy": "npm run build && gh-pages -d .storybook/build",
     "lint": "run-p lint:*",
     "lint:ts": "tslint src/**/*.ts",
-    "precommit": "lint-staged",
     "prestart": "run-s clean build:css",
     "start": "start-storybook -p 9001 -s ./lib",
     "storybook": "build-storybook -o ./.storybook/build -s ./lib",
